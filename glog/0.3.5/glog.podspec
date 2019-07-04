@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.name = 'glog'
   spec.version = '0.3.5'
   spec.license = { :type => 'Google', :file => 'COPYING' }
-  spec.homepage = 'https://github.com/amit27592/glog'
+  spec.homepage = 'https://github.com/google/glog'
   spec.summary = 'Google logging module'
   spec.authors = 'Google'
 
@@ -79,7 +79,7 @@ cp -f src/glog/stl_logging.h "$EXPORTED_INCLUDE_DIR/"
 cp -f src/glog/vlog_is_on.h "$EXPORTED_INCLUDE_DIR/"
 
   CMD
-  spec.source = { :git => 'https://github.com/amit27592/glog.git',
+  spec.source = { :git => 'https://github.com/google/glog.git',
                   :tag => "v#{spec.version}" }
   spec.module_name = 'glog'
   spec.header_dir = 'glog'
