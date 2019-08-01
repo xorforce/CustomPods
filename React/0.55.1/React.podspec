@@ -11,7 +11,7 @@ folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1'
 
 Pod::Spec.new do |s|
   s.name                    = "React"
-  s.version                 = "0.55.1
+  s.version                 = "0.55.1"
   s.summary                 = "A framework for building native apps using React"
   s.description             = <<-DESC
                                 React Native apps are built using the React JS
