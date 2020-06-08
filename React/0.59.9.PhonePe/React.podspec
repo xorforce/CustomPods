@@ -6,7 +6,7 @@
 
 require "json"
 
-source = { :git => 'https://github.com/facebook/react-native.git' }
+source = { :git => 'https://github.com/PhonePe/react-native.git' }
 source[:tag] = "v0.59.9.PhonePe"
 
 folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1'
