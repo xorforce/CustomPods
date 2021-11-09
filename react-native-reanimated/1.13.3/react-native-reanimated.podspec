@@ -14,32 +14,5 @@ Pod::Spec.new do |s|
   s.source_files     = 'ios/**/*.{h,m}'
   s.requires_arc     = true
   s.platforms        = { :ios => "8.0"}
-  s.dependency       "React"
-  s.dependency 'FBLazyVector'
-  s.dependency 'FBReactNativeSpec'
-  s.dependency 'RCTRequired'
-  s.dependency 'RCTTypeSafety'
-  s.dependency 'React/Core'
-  s.dependency 'React/CoreModules'
-  s.dependency 'React/Core/DevSupport'
-  s.dependency 'React/RCTActionSheet'
-  s.dependency 'React/RCTNetwork'
-  s.dependency 'React/RCTAnimation'
-  s.dependency 'React/RCTLinking'
-  s.dependency 'React/RCTBlob'
-  s.dependency 'React/RCTSettings'
-  s.dependency 'React/RCTText'
-  s.dependency 'React/RCTImage'
-  s.dependency 'React/Core/RCTWebSocket'
-  s.dependency 'React/cxxreact'
-  s.dependency 'React/jsi'
-  s.dependency 'React/jsiexecutor'
-  s.dependency 'React/jsinspector'
-  s.dependency 'ReactCommon/turbomodule/core'
-  s.dependency 'Yoga'
-  s.dependency 'DoubleConversion'
-  s.dependency 'glog'
-  s.dependency 'React-callinvoker'
-  s.dependency "Folly"
-  
+  s.dependency       "React/Core"  
 end
