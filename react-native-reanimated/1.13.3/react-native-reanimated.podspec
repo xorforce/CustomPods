@@ -40,6 +40,6 @@ Pod::Spec.new do |s|
   s.dependency 'DoubleConversion'
   s.dependency 'glog'
   s.dependency 'React-callinvoker'
-  s.dependency "#{folly_prefix}Folly"
+  s.dependency "Folly"
   
 end
