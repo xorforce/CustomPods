@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/brentvatne/react-native-video'
   s.authors          = 'Brent Vatne'
   s.source           = { :git => "https://github.com/brentvatne/react-native-video.git", :tag => "#{s.version}" }
-  s.source_files     = 'ios/**/*.{h,m}'
+  s.source_files     = 'ios/Video/*.{h,m}'
   s.requires_arc     = true
   s.platforms        = { :ios => "8.0"}
   s.dependency         'React'  
