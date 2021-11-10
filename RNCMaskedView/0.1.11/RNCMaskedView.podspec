@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'react-native-masked-view'
+  s.name             = 'RNCMaskedView'
   s.version          = "0.1.11"
   s.summary          = "Masking Library for react-native"
   s.license          = "MIT"

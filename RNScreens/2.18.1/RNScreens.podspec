@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'react-native-screens'
+  s.name             = 'RNScreens'
   s.version          = "2.18.1"
   s.summary          = "Navigation Library for react-native"
   s.license          = "MIT"

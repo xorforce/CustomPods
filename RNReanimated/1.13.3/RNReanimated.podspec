@@ -4,7 +4,7 @@ folly_compiler_flags = folly_flags + ' ' + '-Wno-comma -Wno-shorten-64-to-32'
 folly_version = '2018.10.22.00'
 
 Pod::Spec.new do |s|
-  s.name             = 'react-native-reanimated'
+  s.name             = 'RNReanimated'
   s.version          = "1.13.3"
   s.summary          = "Animation library for react-native"
   s.license          = "MIT"
