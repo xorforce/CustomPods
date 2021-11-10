@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'react-native-gesture-handler'
+  s.name             = 'RNGestureHandler'
   s.version          = "1.10.3"
   s.summary          = "Gesture Handling Library for react-native"
   s.license          = "MIT"
